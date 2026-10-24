@@ -8,7 +8,8 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    background: url('https://i.playground.ru/e/usVRqiO86JQuGh9YPVeCtg.jpeg') no-repeat center center fixed;
+background-size: cover;
     height: 100vh; overflow: hidden;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
@@ -67,15 +68,15 @@
 </div>
 
 <div id="startScreen">
-  <h1>Поймай сердечко сигму!! 💘</h1>
-  <p>Нажимай на жопы сердечки и набери дохуя очка<br>за 30 секунд. Удачи, любимый!! 🥰</p>
-  <button onclick="startGame()">Начать жополов 💕</button>
+  <h1>Поймай Лену сигму!! 💘</h1>
+  <p>Нажимай на сиськи Лены и набери дохуя очка<br>за 30 секунд. Удачи, любимый!! 🥰</p>
+  <button onclick="startGame()">Начать сиськолов 💕</button>
 </div>
 
 <div id="endScreen">
   <h1 id="endTitle">Время dead</h1>
   <p id="endText"></p>
-  <button onclick="restart()">Поиграть еще разок(я в тебя верю, Димка 🔁</button>
+  <button onclick="restart()">Поиграть еще разок 🔁</button>
 </div>
 
 <script>
@@ -114,7 +115,7 @@
     const h = document.createElement('div');
     h.className = 'heart';
    const img = document.createElement('img');
-  img.src = 'https://i.pinimg.com/736x/ca/23/9c/ca239c40e08ae2fcd9efa6163cf6cb95.jpg';      // 👈 твоя картинка
+  img.src = 'https://i.pinimg.com/736x/ca/23/9c/ca239c40e08ae2fcd9efa6163cf6cb95.jpg';
   img.style.width = '55px';
   img.style.height = '55px';
   img.style.pointerEvents = 'none';  // чтобы клик шёл по контейнеру
